@@ -21,26 +21,29 @@
 
 ## 三、项目结构说明
 
+<pre>
 blog-backend/
 ├── main.go
 ├── go.mod
 ├── go.sum
 ├── README.md
 ├── config/
-│ ├── db.go
-│ └── logger.go
+│   ├── db.go
+│   └── logger.go
 ├── models/
-│ ├── user.go
-│ ├── post.go
-│ └── comment.go
+│   ├── user.go
+│   ├── post.go
+│   └── comment.go
 ├── handlers/
-│ ├── auth.go
-│ ├── post.go
-│ └── utils.go
+│   ├── auth.go
+│   ├── post.go
+│   └── utils.go
 ├── middleware/
-│ └── jwt.go
+│   └── jwt.go
 └── scripts/
-└── curl_test.sh
+    └── curl_test.sh
+</pre>
+
 
 
 ---
